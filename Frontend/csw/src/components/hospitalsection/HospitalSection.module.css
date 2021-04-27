@@ -1,0 +1,6 @@
+.hospitalsection {
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,33 @@
+.popover {
+  height: 389px;
+  width: 268px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 77px;
+  right: 20px;
+  animation: openfrombottom 1s ease;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes openfrombottom {
+  from {
+    height: 0;
+  }
+  to {
+    height: 389px;
+  }
+}
+
+.inputbox {
+  box-sizing: border-box;
+  height: 44px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

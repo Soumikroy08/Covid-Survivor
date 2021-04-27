@@ -1,0 +1,45 @@
+.survivorslist {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+}
+
+.survivoroverview {
+  display: flex;
+  flex-direction: row;
+}
+
+.survivorpic {
+  height: 120px;
+  width: 120px;
+}
+
+.survivorname {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+  justify-content: center;
+}
+
+.survivortitle {
+  color: #333;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.viewmystorylink {
+  color: #39f;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}

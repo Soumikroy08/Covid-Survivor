@@ -1,0 +1,93 @@
+.survivorscard {
+  height: fit-content;
+  min-width: 1166px;
+  width: fit-content;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
+  overflow-y: scroll;
+}
+
+.survivorssection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.survivordetailssection {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.detailssection1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.detailssection2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.survivorpicdetails {
+  height: 243px;
+  width: 243px;
+}
+
+.emailsection {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.phonesection {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  color: #333;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.survivortitle {
+  color: #333;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.survivorstory {
+  color: #231F20;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 809px;
+}
+
+.gobacklink {
+  color: #39F;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 30px;
+  width: fit-content;
+}

@@ -1,0 +1,75 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  width: 307px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  /* animation: swipefromleft 2s ease; */
+  animation: fadein 1s ease;
+  cursor: pointer;
+  transition: .5s;
+  border: 2px solid transparent;
+}
+
+.list:hover {
+    transform: scale(1.05);
+    border: 2px solid #3498fb;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes swipefromleft {
+  from {
+    width: 0;
+    overflow: hidden;
+  }
+  to {
+    width: 307px;
+    overflow: hidden;
+  }
+}
+
+.listno {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  height: 110px;
+  background-color: #3498fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 45px;
+}
+
+.hostpital {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 15px;
+}
+
+.name {
+  color: #062d55;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.area {
+  color: #4f4f4f;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 300;
+}

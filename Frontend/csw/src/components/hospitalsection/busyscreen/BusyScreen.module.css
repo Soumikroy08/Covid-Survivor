@@ -1,0 +1,37 @@
+.listsection {
+    background-color: #fff;
+    /* height: 100%; */
+    width: fit-content;
+    min-width: 350px;
+    padding: 20px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+    overflow: scroll;
+  }
+  
+  
+  
+  .titlebar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .title {
+    color: #4f4f4f;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .blueline {
+    height: 20px;
+    width: 4px;
+    background-color: #39f;
+    margin-right: 10px;
+  }
+
+  .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50%;
+  }

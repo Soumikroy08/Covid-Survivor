@@ -1,0 +1,61 @@
+.splashscreen {
+    background-image: url(../../images/covidwallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    animation: fadein 2s ease;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.splashscreenoff {
+    background-image: url(../../images/covidwallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    animation: fadeout 2s ease;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.splashcomponent {
+    position: absolute;
+    right: 5rem;
+    top: 50%;
+    bottom: 50%;
+    text-align: right;
+    color: #ffffff;
+}
+
+.maintitle {
+    font-size: 54px;
+    animation: letterspacinganimation 2s ease;
+}
+
+@keyframes letterspacinganimation {
+    from {
+        letter-spacing: 40px;
+    }
+    to {
+        letter-spacing: 0;
+    }
+}
+
+.subtitle {
+    font-size: 20px;
+    animation: letterspacinganimation 2s ease;
+}

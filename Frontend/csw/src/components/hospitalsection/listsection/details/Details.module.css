@@ -1,0 +1,121 @@
+.hospitaldetails {
+  width: 304px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.headersection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.title {
+  color: #020f1d;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.area {
+  color: #4f4f4f;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.labelsection {
+    display: flex;
+    flex-direction: column;
+}
+
+.valuessection {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  color: #4f4f4f;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    color: #4F4F4F;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .bluebutton {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    height: 52px;
+    width: 234px;
+    border-radius: 50px;
+    background-color: #39F;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .whitebutton {
+    color: #39F;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    height: 52px;
+    width: 234px;
+    border: 1px solid #39F;
+    border-radius: 50px;
+    background-color: #FFF;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .buttonsection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }

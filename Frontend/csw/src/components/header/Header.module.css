@@ -1,0 +1,51 @@
+.header {
+    height: 70px;
+    background-color: #020F1D;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+  color: #FFF;
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+.logos{
+    display: flex;
+}
+
+@keyframes rotateclockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateanticlockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.logo1 {
+    width: 30px;
+    height: 30px;
+    animation: rotateanticlockwise 2s infinite;
+}
+
+.logo2 {
+    width: 50px;
+    height: 50px;
+    animation: rotateclockwise 2s infinite;
+}

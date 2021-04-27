@@ -1,0 +1,11 @@
+export const map = "map";
+export const hospitaldetails = "hospitaldetails";
+export const hospitalidselected = "hospitalidselected";
+export const hospitals = "hospitals";
+export const busyindicator = "busyindicator";
+export const totalactivecases = "totalactivecases";
+export const totalrecoveredcases = "totalrecoveredcases";
+export const totaldeceasedcases = "totaldeceasedcases";
+export const totalbedsvacant = "totalbedsvacant";
+export const totalbedsoccupied = "totalbedsoccupied";
+export const survivorsloading = "survivorsloading";
